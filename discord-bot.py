@@ -22,7 +22,6 @@ async def on_message(message):
         await   message.channel.send('teste')
 #esse comando ativa quando qualquer mensagem é enviada. Caso o autor da mensagem seja o próprio bot, o comando é encerrado - isso serve para evitar que o bot fique se respondendo ou executando o comando infinitamente. Em seguida, ele checa se a mensagem começa com "!teste", caso isso seja verdade, ele escreve a mensagem "teste."
 #this command activates when any message is sent. If the author of the message is the Bot itself, the command is terminated - this serves to prevent the bot from answering itself, or that the command runs infinitely. Then it checks if the messager starts with "!Test", and if that is true, it writes the message "test". 
-@client.event
 
 
 

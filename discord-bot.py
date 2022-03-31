@@ -23,10 +23,11 @@ async def on_message(message):
 #esse comando ativa quando qualquer mensagem é enviada. Caso o autor da mensagem seja o próprio bot, o comando é encerrado - isso serve para evitar que o bot fique se respondendo ou executando o comando infinitamente. Em seguida, ele checa se a mensagem começa com "!teste", caso isso seja verdade, ele escreve a mensagem "teste."
 #this command activates when any message is sent. If the author of the message is the Bot itself, the command is terminated - this serves to prevent the bot from answering itself, or that the command runs infinitely. Then it checks if the messager starts with "!Test", and if that is true, it writes the message "test". 
 @client.event
-async def on_message(message):
-    if str(message.role) == ('reaper'):
-        await message.channel.purge(limit = 1)
 
-client.run('OTU4NDI1MDc2MzA5NTg1OTQw.YkNI6A.nR9DOPgQV_n43OWDMOZah7Sm8G4')
-#isso fornece à API o token do nosso bot, para que este possa se comunicar com o Discord através dela.
-#this provides the API our bot's token so that it can communicate with Discord through that.
+
+
+
+
+client.run('token')
+#isso fornece à API o token do nosso bot, para que este possa se comunicar com o Discord através dela. Você deve colocar o Token do seu próprio bot aqui.
+#this provides the API our bot's token so that it can communicate with Discord through that. You need to input your bot's own token here

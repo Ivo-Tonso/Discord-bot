@@ -1,5 +1,5 @@
 #IF YOU HAVE TROUBLE UNDERSTANDING ANYTHING IN HERE, YOU SHOULD EITHER READ THE DISCORD.PY DOCUMENTATION OR CONTACT ME. MY SOCIALS ARE ON README
-
+#SE VOCÊ TIVER DIFICULDADE PARA ENTENDER QUALQUER COISA AQUI, VOCÊ DEVERIA OU LER A DOCUMENTAÇÃO OFICIAL DO DISCORD.PY, OU ME CONTACTAR. MINHAS REDES SOCIAIS ESTÃO NO README.MD
 #LIBRARIES AND PREPARATIONS----------------------------
 import discord
 #biblioteca principal do discord.py. O bot inteiro é baseado nela.
@@ -23,7 +23,7 @@ async def teste (ctx):
     await ctx.send('teste')
 #comando simples de teste. O bot espera o prefixo definido no começo do arquivo, para então identificar o contexto "teste" - ele então manda uma mensagem dizendo "teste".
 #simple test command. The bot waits for the prefix defined in the beginning of the code, and then identifies the context "test" - it then simply sends a message conaining "text".
-client.run('OTU4NDI1MDc2MzA5NTg1OTQw.YkNI6A.aASujX1e36dkLaLcAeZGyPCcW6Q')
+client.run('token')
 #isso fornece à API o token do nosso bot, para que este possa se comunicar com o Discord através dela. Você deve colocar o Token do seu próprio bot aqui.
 #this provides the API our bot's token so that it can communicate with Discord through that. You need to input your bot's own token here
 #-----------------------------------------------------
